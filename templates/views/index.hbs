@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="/img/A.jpeg">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1> Weather</h1>
+    {{>header}}
+    <div style="margin: 12px;">
+        <form>
+            <input type="text" name="address" id="address" placeholder="Enter Address">
+            <button>Search</button>
+        </form>
+
+        <p id="message1"></p>
+        <p id="message2"></p>
+    </div>
+    {{>footer}}
+</body>
+<script src="/js/module.js"></script>
+
+</html>
